@@ -182,11 +182,20 @@ Entry içeriği buraya gelir...
 ## Kurulum
 
 1. Tarayıcınıza aşağıdaki eklentilerden birini kurun:
-   - [Tampermonkey](https://www.tampermonkey.net/) (Chrome, Firefox, Safari, Edge için)
-   - [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) (Firefox için)
+   - [Tampermonkey](https://www.tampermonkey.net/) (Chrome, Firefox, Safari, Edge için) (**Önerilen**)
    - [Violentmonkey](https://violentmonkey.github.io/) (Chrome, Firefox, Edge için)
-2. [Buraya tıklayarak](https://github.com/hasanbeder/ESPA/raw/main/ESPA.user.js) scripti yükleyin
+   - ~~[Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) (Firefox için)~~ (Şu an için desteklenmiyor)
+2. [Buraya tıklayarak](https://raw.githubusercontent.com/hasanbeder/ESPA/main/ESPA.user.js) scripti yükleyin
 3. Eklenti kurulum penceresinde "Yükle" butonuna tıklayın
+
+> ### ⚠️ **ÖNEMLİ UYARI! (Tampermonkey Kullanıcıları İçin)** ⚠️
+> **Tampermonkey 5.0 ve üzeri versiyonlarda, userscript'lerin çalışabilmesi için geliştirici modunun açık olması gerekmektedir.** (Violentmonkey kullanıyorsanız bu adımları atlayabilirsiniz)
+> 1. Tarayıcınızda Tampermonkey ikonuna tıklayın
+> 2. "Dashboard" (Kontrol Paneli) seçeneğine tıklayın
+> 3. Sağ üst köşedeki "Settings" (Ayarlar) sekmesine geçin
+> 4. "Settings mode" (Ayar modu) seçeneğini "Advanced" (Gelişmiş) yapın
+> 5. "Developer mode" (Geliştirici modu) seçeneğini aktif edin
+> 6. **Tarayıcınızı yeniden başlatın** (Bu adım önemli!)
 
 ## Kullanım
 
@@ -252,9 +261,7 @@ Aşağıdaki userscript yöneticilerinden birinin güncel sürümünün kurulu o
 - Violentmonkey
   - Açık kaynak bir alternatiftir
   - Tüm modern tarayıcılarla uyumludur
-- Greasemonkey
-  - Firefox'ta daha iyi performans sağlar
-  - Firefox'a özel özellikler sunar
+- ~~Greasemonkey~~ (Şu an için desteklenmiyor)
 
 ### Sistem Gereksinimleri
 - İşletim Sistemi: Windows 7+, macOS 10.13+, Linux (güncel dağıtımlar)

@@ -190,12 +190,12 @@ Entry içeriği buraya gelir...
 
 > ### ⚠️ **ÖNEMLİ UYARI! (Tampermonkey Kullanıcıları İçin)** ⚠️
 > **Tampermonkey 5.0 ve üzeri versiyonlarda, userscript'lerin çalışabilmesi için geliştirici modunun açık olması gerekmektedir.** (Violentmonkey kullanıyorsanız bu adımları atlayabilirsiniz)
-> 1. Tarayıcınızda Tampermonkey ikonuna tıklayın
-> 2. "Dashboard" (Kontrol Paneli) seçeneğine tıklayın
-> 3. Sağ üst köşedeki "Settings" (Ayarlar) sekmesine geçin
-> 4. "Settings mode" (Ayar modu) seçeneğini "Advanced" (Gelişmiş) yapın
-> 5. "Developer mode" (Geliştirici modu) seçeneğini aktif edin
-> 6. **Tarayıcınızı yeniden başlatın** (Bu adım önemli!)
+> 
+> Tarayıcınızın geliştirici modunu aktif etmek için:
+> - **Chrome**: Üç nokta menü > Diğer Araçlar > Uzantılar > Sağ üstteki "Geliştirici modu"nu açın
+> - **Firefox**: Menü > Eklentiler ve Temalar > Dişli ikonu > Eklentilerde hata ayıkla
+> - **Edge**: Üç nokta menü > Uzantılar > Uzantıları Yönet > Geliştirici modu
+> - **Opera**: Uzantılar > Uzantıları Yönet > Geliştirici modu
 
 ## 🚀 Kullanım
 
@@ -287,3 +287,6 @@ Detaylar için [LICENSE](LICENSE) dosyasına bakın.
 
 ---
 ⭐ ESPA'yı beğendiyseniz yıldız vermeyi unutmayın!
+
+---
+❤️ sözlük'ün tadı başka, entry'lerin havası başka... iyi ki varsın ekşi sözlük!

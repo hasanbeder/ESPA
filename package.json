@@ -1,0 +1,41 @@
+{
+  "name": "espa",
+  "version": "1.0.0",
+  "description": "Ekşi Sözlük Personal Archiver",
+  "main": "ESPA.user.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint .",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hasanbeder/ESPA.git"
+  },
+  "keywords": [
+    "eksisozluk",
+    "archiver",
+    "userscript",
+    "tampermonkey"
+  ],
+  "author": "Hasan Beder",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/hasanbeder/ESPA/issues"
+  },
+  "homepage": "https://github.com/hasanbeder/ESPA#readme",
+  "devDependencies": {
+    "@babel/core": "^7.23.5",
+    "@babel/preset-env": "^7.23.5",
+    "babel-jest": "^29.7.0",
+    "eslint": "^8.55.0",
+    "husky": "^8.0.3",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "lint-staged": "^15.2.0"
+  },
+  "lint-staged": {
+    "*.js": ["eslint --fix", "jest --findRelatedTests"]
+  }
+}

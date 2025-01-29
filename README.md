@@ -197,12 +197,11 @@ Entry içeriği buraya gelir...
 > - **Edge**: Üç nokta menü > Uzantılar > Uzantıları Yönet > Geliştirici modu
 > - **Opera**: Uzantılar > Uzantıları Yönet > Geliştirici modu
 
-## 🚀 Kullanım
+## 🚀 Kurulum ve İndirme
 
-1. Ekşi Sözlük'te herhangi bir başlığa gidin
-2. Başlık yanındaki arşivleme ikonuna tıklayın
-3. İstediğiniz sayfa aralığını ve format tercihini seçin
-4. "Arşivle" butonuna tıklayın
+### 📦 İndirme Seçenekleri
+- 🌐 [Greasy Fork'tan İndir](https://greasyfork.org/en/scripts/519298-ek%C5%9Fi-s%C3%B6zl%C3%BCk-personal-archiver-espa)
+- 📥 GitHub'dan manuel kurulum
 
 ## 📜 Önemli Yasal Uyarı
 
